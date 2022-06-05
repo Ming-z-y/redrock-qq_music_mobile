@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="http://at.alicdn.com/t/font_3449362_plpsfnfuss.css"
+    />
+    <link rel="stylesheet" href="./dist/dragula.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div id="top">
+        <div class="logoBox">
+          <div class="logoLe">
+            <img src="https://y.qq.com/mediastyle/mod/mobile/img/logo.svg" />
+            <div>
+              <p id="TITLE">QQ音乐</p>
+              <p id="downP">打开APP收藏下载</p>
+            </div>
+          </div>
+          <div class="logoRi">下载APP</div>
+        </div>
+        <div class="appTitle">
+          <ul>
+            <li class="recoLi active">推荐</li>
+            <li class="rankLi">排行</li>
+          </ul>
+        </div>
+      </div>
+      <div class="contentOne">
+        <div class="search">
+          <input type="text" />
+          <i class="iconfont icon-sousuo"></i>
+          <i id="searchfont">搜索</i>
+          <i id="cancel"> 取消</i>
+        </div>
+        <div class="content">
+          <div class="guanfang inner">
+            <div class="inTit">官方歌单 <i>更多></i></div>
+            <div id="guanCon"></div>
+          </div>
+          <div class="daren inner">
+            <div class="inTit">达人歌单 <i>更多></i></div>
+            <div id="daCon"></div>
+          </div>
+          <div class="zhuanqu inner">
+            <div class="inTit">专区 <i>更多></i></div>
+            <div id="zhuanCon"></div>
+          </div>
+        </div>
+      </div>
+      <div class="contentTwo"></div>
+      <div class="bottom">
+        <p class="BotOne">
+          <img src="https://y.qq.com/mediastyle/mod/mobile/img/logo.svg" />
+          QQ音乐
+        </p>
+        <p class="Bo">
+          Copyright &copy; 1998 - 2019 Tencent.All Rights Reserved
+        </p>
+        <p class="Bo">联系电话：0755-86013388 QQ群：55209235</p>
+        <div class="searchBox">
+          <div class="historyBox">
+            <h3>搜索历史</h3>
+          </div>
+          <h3>热门搜索</h3>
+        </div>
+        <div class="fixBox">
+          <img src="https://y.qq.com/mediastyle/mod/mobile/img/logo.svg" />
+          安装QQ音乐 发现更多精彩
+        </div>
+        <div class="searchResult"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./dist/dragula.min.js"></script>
+  <script src="./index.js"></script>
+</html>

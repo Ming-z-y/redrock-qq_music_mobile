@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
+input:focus {
+  outline: none;
+}
+body {
+  background-color: #fafafa;
+}
+.app {
+  width: 100vw;
+  background-color: #fafafa;
+  position: relative;
+}
+.appTitle {
+  height: 10vw;
+  background-color: white;
+}
+.appTitle li {
+  float: left;
+  width: 50vw;
+  text-align: center;
+  font-size: 3vw;
+  height: 40px;
+  line-height: 10vw;
+}
+.active {
+  color: rgb(26, 163, 117);
+}
+.search {
+  width: 90%;
+  height: 10vw;
+  background-color: white;
+  margin: 0 auto;
+  margin-left: 2.5%;
+  margin-top: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.search input {
+  height: 8vw;
+  margin-top: 5px;
+  margin-left: 50px;
+  width: 88%;
+  border: none;
+}
+#searchfont {
+  font-size: 3vw;
+  position: absolute;
+  top: 3vw;
+  left: 50vw;
+}
+#cancel {
+  font-weight: 800;
+  font-size: 4vw;
+  display: none;
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+}
+.fetchImg {
+  width: 25vw;
+  height: 25vw;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.fetchImgT {
+  width: 50vw;
+  height: 25vw;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.imgBox {
+  position: relative;
+}
+.imgBox i {
+  font-size: 3vw;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+.inTit {
+  font-size: 4vw;
+  font-weight: 600;
+  margin-top: 5vw;
+  position: relative;
+}
+.inTit i {
+  font-size: 3vw;
+  font-weight: 300;
+  position: absolute;
+  right: 0;
+  top: 1vw;
+}
+#guanCon,
+#daCon,
+#zhuanCon {
+  margin-top: 2.5vw;
+  display: flex;
+  overflow-x: auto;
+}
+.bottom {
+  height: 45vw;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10vw;
+}
+.bottom p {
+  text-align: center;
+}
+.BotOne {
+  font-size: 5vw;
+  margin-top: 25px;
+}
+.BotOne img {
+  width: 6vw;
+}
+.Bo {
+  font-size: 2vw;
+  margin-top: 5px;
+}
+.searchBox {
+  width: 90%;
+  height: 505px;
+  background-color: #fafafa;
+  position: absolute;
+  top: 40vw;
+  margin: 0 auto;
+  display: none;
+  margin-top: 10px;
+}
+.paiP {
+  text-align: left;
+}
+.searchResult {
+  width: 90%;
+  height: 700px;
+  background-color: #fafafa;
+  position: absolute;
+  top: 40vw;
+  margin: 0 auto;
+  display: none;
+  margin-top: 10px;
+  padding-left: 5vw;
+}
+.historyBox {
+  display: none;
+}
+.contentTwo {
+  background-color: #fafafa;
+  display: none;
+}
+.rankItem {
+  padding: 2vw;
+  width: 90%;
+  height: 25vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 3vw;
+}
+.rankItem img {
+  width: 25vw;
+  height: 25vw;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.rankItem div {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.rankItem li {
+  font-size: 2vw;
+}
+.logoBox {
+  margin: 0 auto;
+  width: 90%;
+  height: 15vw;
+  display: flex;
+  justify-content: space-between;
+}
+.logoLe {
+  margin-top: 2vw;
+  display: flex;
+}
+.logoLe img {
+  height: 7vw;
+  margin-top: 2vw;
+}
+.logoLe p {
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+#TITLE {
+  font-weight: 600;
+  font-size: 4vw;
+}
+#downP {
+  font-size: 2vw;
+}
+.logoRi {
+  color: #c9c9c9;
+  border: 1px solid #c9c9c9;
+  font-size: 3vw;
+  height: 4vw;
+  width: 18vw;
+  text-align: center;
+  margin-top: 4vw;
+  line-height: 4vw;
+  border-radius: 2vw;
+}
+.fixBox {
+  background-color: white;
+  height: 10vw;
+  line-height: 10vw;
+  width: 70vw;
+  border-radius: 4vw;
+  margin: 0 auto;
+  margin-top: 5vw;
+  position: fixed;
+  bottom: 10vw;
+  left: 15vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fixBox img {
+  margin-left: 6vw;
+  width: 4vw;
+}
+.iconColumn {
+  position: absolute;
+  left: 2vw;
+  top: 16vw;
+}
+.titleCo {
+  position: absolute;
+  color: #fff;
+  left: 12vw;
+  top: 17vw;
+  font-size: 7vw;
+}
+
+.viewBox {
+  position: absolute;
+  width: 20vw;
+  height: 5vw;
+  top: 20vw;
+  right: 4vw;
+  border-radius: 2vw;
+  background: rgb(156, 154, 154, 0.6);
+  line-height: 5vw;
+  text-align: center;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.icon-sousuo {
+  top: 3vw;
+  left: 45vw;
+  position: absolute;
+}
